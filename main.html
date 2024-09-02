@@ -6,6 +6,27 @@
     <link rel="stylesheet" href="./styles.css"/>
     <title>About Me</title>
 </head>
+	<style>
+		.skill {
+    margin-bottom: 15px;
+}
+
+.bar {
+    background-color: #ddd;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+.bar div {
+    background-color: #4CAF50;
+    height: 25px;
+    border-radius: 5px;
+    text-align: right;
+    padding-right: 10px;
+    line-height: 25px;
+    color: white;
+}
+	</style>
 <body>
 	<section id="name">
     <h1>Name</h1>
@@ -26,8 +47,41 @@
 	<section id="about-me">
     <h2>About me</h2>
     <img src="your-picture.jpg"  alt=" "style="width:150px;height:150px;border-radius:50%;">
-    <p>A brief description about yourself, your background, and your aspirations.</p>
+    <p>I am a passionate and dedicated recent graduate with a Bachelor’s degree in Computer Science, eager to embark on a career as a Software Developer. During my academic journey, I have developed a strong foundation in programming languages such as Python, Java, and JavaScript, along with hands-on experience in web development and software engineering principles.</p>
 </section>
+	<section id="skills">
+    <h2>Skills</h2>
+
+    <div class="skill">
+        <i class="fab fa-html5"></i> 
+        <span>HTML</span>
+        <div class="bar">
+            <div class="html" style="width: 90%;"></div>
+        </div>
+        <span class="percentage">90%</span>
+    </div>
+
+    <div class="skill">
+        <i class="fab fa-css3-alt"></i> 
+        <span>CSS</span>
+        <div class="bar">
+            <div class="css" style="width: 80%;"></div>
+        </div>
+        <span class="percentage">80%</span>
+    </div>
+
+    <div class="skill">
+        <i class="fab fa-js-square"></i>
+        <span>JavaScript</span>
+        <div class="bar">
+            <div class="javascript" style="width: 70%;"></div>
+        </div>
+        <span class="percentage">70%</span>
+    </div>
+
+    <!-- Add more skills as needed -->
+</section>
+
 
 
 
